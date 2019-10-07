@@ -5,16 +5,50 @@
     padding: 5px 20px;
     margin: 0 auto;
     max-width: 600px;
-    text-align: center;
-    min-width: 250px;
+    /* text-align: center; */
+    min-width: 600px;
     font-size: 20px;
 }
 body{
     background: url('../img/spencer-davis-o_XkavUaGEw-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
     margin: 0 auto;
+    width: 100%;
+    letter-spacing: 0.5px;
+    opacity: 0.95;
+}
+#gridContainer{
+    display: grid;
+    grid-template: repeat(3, 1fr) /  repeat(2, 1fr);
+}
+#gridContainer > * {
+    width: 95%;
 }
 input{
     width: 100%;
     text-align: center;
+}
+input[type="number"] {
+    font-size: 1.1em;
+    height: 35px;
+    margin: 20px 5px;
+}
+div *{
+    /* line-height: 2.5em */
+}
+h1{
+    text-align: center;
+}
+@media(max-width: 640px){
+    body{
+        width: 100%;
+        background: white;
+    }
+    #container{
+    max-width: 600px;
+    min-width: 250px;
+    }
+    #gridContainer{
+        display: contents
+    }
 }
