@@ -12,6 +12,7 @@
 body{
     background: url('../img/spencer-davis-o_XkavUaGEw-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
+    margin: 0 auto;
 }
 input{
     width: 100%;
