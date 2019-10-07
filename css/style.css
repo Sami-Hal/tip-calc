@@ -1,0 +1,13 @@
+#container{
+    background: #F1C40F; 
+    background: linear-gradient(135deg, #c29d0b 0%, #F1C40F 100%);
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+body{
+    background: url('../img/spencer-davis-o_XkavUaGEw-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
