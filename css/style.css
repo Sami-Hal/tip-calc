@@ -6,8 +6,13 @@
     margin: 0 auto;
     max-width: 600px;
     text-align: center;
+    min-width: 250px;
+    font-size: 20px;
 }
 body{
     background: url('../img/spencer-davis-o_XkavUaGEw-unsplash.jpg') no-repeat center center fixed;
     background-size: cover;
+}
+input{
+    width: 100%;
 }

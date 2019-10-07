@@ -14,12 +14,12 @@
         <h4>Total Bill:</h4>
         <input type="number">
         <h4>Tip:</h4>
-        <input type="range">
+        <input type="range" min="0" max="80" value="10">
         <h4>Split (number of people):</h4>
-        <input type="range">
+        <input type="range" min="1" max="10" value="1">
         <hr />
-        <p>New Bill (per person):</p>
-        <p>Tip Amount (per person):</p>
+        <p id="bill">New Bill (per person):</p>
+        <p id="tip">Tip Amount (per person):</p>
     </div>
     <script src="myapp.js"></script>
 </body>
